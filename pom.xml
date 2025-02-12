@@ -40,7 +40,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>  <!-- New version of the maven-war-plugin -->
+                <version>3.8.6</version>  <!-- New version of the maven-war-plugin -->
                 <configuration>
                     <warName>maven-web-application</warName>
                     <!-- Optional: Additional configuration for the WAR file -->
@@ -51,7 +51,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.8.6</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
